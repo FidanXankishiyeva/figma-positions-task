@@ -250,27 +250,6 @@ button {
 .page-2 {
   padding: 140px 135px 244px 135px;
 }
-.text-buttons-collaj {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-.text-buttons-collaj .buttons {
-  display: flex;
-}
-.text-buttons-collaj .buttons .circle {
-  width: 48px;
-  height: 48px;
-  margin-right: 16px;
-  position: relative;
-}
-.text-buttons-collaj .buttons .circle .arrow-svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .text-box-2 {
   width: 531px;
 }
@@ -297,16 +276,20 @@ button {
   letter-spacing: -1px;
 }
 .team-person ul {
-  margin-top: 64px;
+  /* padding: 24px 37px 0px 37px; */
   display: flex;
   justify-content: space-between;
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+  background-color: violet;
 }
 .team-person ul li {
   list-style-type: none;
   width: 23%;
+  border: 2px solid red;
 }
 .team-person ul li div {
-  height: 272px;
+    height: 272px;
   border-radius: 6px;
   border: 1px solid #3a3c56;
   display: flex;
@@ -323,16 +306,15 @@ button {
 }
 
 .team-person ul li:nth-child(3) img {
-  width: 205px;
-  height: 238px;
-}
-.team-person ul li:nth-child(4) img {
-  width: 230px;
-  height: 233px;
-}
-
+    width: 259px;
+    height: 232px;
+  }.team-person ul li:nth-child(4) img {
+    width: 259px;
+    height: 232px;
+  }
+width: 205px;
+height: 238px;
 .team-person h5 {
-  margin-top: 26px;
   color: var(--text-light, #fff);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
